@@ -19,3 +19,22 @@
   font-family: Verdana,Helvetica Neue,Helvetica,Arial,sans-serif;
   line-height: 1.8;
 }
+
+.h1, h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p , .lead{
+  color: #334655;
+}
+
+footer{
+  color: #808180;
+}
+
+@media (min-width: 768px){
+  .lead {
+      font-size: 18px;
+  }
+}
