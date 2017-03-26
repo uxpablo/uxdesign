@@ -29,8 +29,16 @@ p , .lead{
   color: #334655;
 }
 
+.btn-no-padding{
+  padding: 0px;
+}
+
 footer{
   color: #808180;
+}
+
+.pt1{
+  padding-top: 10px;
 }
 
 @media (min-width: 768px){
