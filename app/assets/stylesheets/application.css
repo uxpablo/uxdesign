@@ -40,9 +40,3 @@ footer{
 .pt1{
   padding-top: 10px;
 }
-
-@media (min-width: 768px){
-  .lead {
-      font-size: 18px;
-  }
-}
