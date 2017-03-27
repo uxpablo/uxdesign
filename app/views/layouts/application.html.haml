@@ -3,6 +3,7 @@
   %head
     %title Pablo Vivanco - Software designer and usability specialist
     = csrf_meta_tags
+    %meta{:content => "user-scalable=no, width=device-width", :name => "viewport"}
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
     / Latest compiled and minified CSS
@@ -15,8 +16,6 @@
     %script{:src => "https://use.fontawesome.com/067eb424b7.js"}
 
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
-
-    %meta{:content => "user-scalable=no, width=device-width", :name => "viewport"}
 
   %body
     .container-fluid
