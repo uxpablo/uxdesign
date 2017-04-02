@@ -38,6 +38,10 @@ footer{
   color: #808180;
 }
 
+.img-responsive {
+  display: inline;
+}
+
 .pt1{
   padding-top: 10px;
 }
