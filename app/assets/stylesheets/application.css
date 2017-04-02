@@ -20,13 +20,14 @@
   line-height: 1.8;
 }
 
-.h1, h1 {
+h1 {
   font-size: 22px;
   font-weight: bold;
 }
 
 p , .lead{
   color: #334655;
+  text-rendering: optimizeLegibility;
 }
 
 .btn-no-padding{
@@ -39,4 +40,17 @@ footer{
 
 .pt1{
   padding-top: 10px;
+}
+.main_nav {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.main_nav a{
+  font-family: 'Helvetica Neue Condensed','Helvetica','Arial',sans-serif;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 1.065rem;
+  border-bottom: 0 solid #c00;
 }
