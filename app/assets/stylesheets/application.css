@@ -25,6 +25,10 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  font-size: 1.03em;
+}
+
 p , .lead{
   color: #334655;
   text-rendering: optimizeLegibility;
