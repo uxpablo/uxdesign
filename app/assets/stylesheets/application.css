@@ -42,6 +42,14 @@ footer{
   color: #808180;
 }
 
+.progress {
+  height: 5px;
+}
+
+.strong {
+  font-weight: bold;
+}
+
 .img-responsive {
   display: inline;
 }
